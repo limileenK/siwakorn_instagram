@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    background: var(--bg);
+    /* background-color: chocolate; */
+}
+
+:root {
+    --base: #fbff0059;
+    --spacing: 5px;
+    --blur: 5px;
+    --bg: chocolate;
+    text-shadow: 0 2px 2px rgb(236, 88, 88);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    text-shadow: 0 3.5px 1px rgb(202, 25, 25);
+    margin-top: 15%
+}
+
+h5 {
+    font-family: 'Lemonada', cursive;
+}
+
+.search {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border: solid 0px rgb(59, 16, 16);
+    border-radius: 2rem;
+    width: 40%;
+    height: 40px;
+    box-shadow: 0 10px 20px rgba(161, 6, 6, 1.5);
+    background-color: cornsilk;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+
+input:focus {
+    outline: none;
+}
+
+.gallery {
+    margin-top: 30px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.gallery img {
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: wheat;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 20px rgba(161, 6, 6, 1.5);
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
